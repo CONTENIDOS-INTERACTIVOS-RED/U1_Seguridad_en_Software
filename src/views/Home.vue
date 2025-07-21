@@ -22,11 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
-              
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p.descripcion.mb-4 La unidad “Conceptos básicos de seguridad” introduce fundamentos esenciales en seguridad informática, centrados en la protección de sistemas y datos a través de principios como confidencialidad, integridad y disponibilidad. Se abordan vulnerabilidades, su identificación y clasificación, así como buenas prácticas para prevenir riesgos. La unidad promueve el uso de herramientas automatizadas y pruebas manuales (<em>pentesting</em>), y destaca la importancia de interpretar reportes de seguridad. Está diseñada para que los estudiantes desarrollen competencias clave en el diseño, desarrollo y mantenimiento de <em>software</em> seguro, preparándolos para enfrentar desafíos en entornos tecnológicos reales.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
